@@ -178,7 +178,7 @@ public class UnifiedMessage {
          * @param value of an application specific entry
          * @return the current {@link Builder} instance
          */
-        public Builder attribute(String key, String value) {
+        public Builder attribute(String key, Object value) {
             this.attributes.put(key, value);
             return this;
         }
